@@ -1,101 +1,131 @@
-Domain,Category,Region
-google.com,Technology,North America
-bbc.com,News,Europe
-amazon.com,E-commerce,North America
-mit.edu,Education,North America
-aljazeera.com,News,Middle East
-sina.com.cn,News,Asia
-wikipedia.org,Education,Global
-airbnb.com,Travel,North America
-ebay.co.uk,E-commerce,Europe
-booking.com,Travel,Europe
-nasa.gov,Government,North America
-coursera.org,Education,Global
-harvard.edu,Education,North America
-baidu.com,Technology,Asia
-cisco.com,Technology,North America
-lemonde.fr,News,Europe
-yahoo.co.jp,Technology,Asia
-flipkart.com,E-commerce,Asia
-gov.uk,Government,Europe
-udemy.com,Education,Global
-guardian.co.uk,News,Europe
-reuters.com,News,Global
-netflix.com,Entertainment,North America
-sapo.pt,News,Europe
-spiegel.de,News,Europe
-apple.com,Technology,North America
-yandex.ru,Technology,Europe
-rakuten.co.jp,E-commerce,Asia
-weibo.com,Social Media,Asia
-nytimes.com,News,North America
-nike.com,E-commerce,North America
-vk.com,Social Media,Europe
-reddit.com,Social Media,North America
-tesla.com,Technology,North America
-linkedin.com,Social Media,Global
-asos.com,E-commerce,Europe
-cnn.com,News,North America
-zara.com,E-commerce,Europe
-foxnews.com,News,North America
-tencent.com,Technology,Asia
-latimes.com,News,North America
-lego.com,E-commerce,Europe
-microsoft.com,Technology,North America
-sony.com,Technology,Asia
-hollywoodreporter.com,News,North America
-quora.com,Education,Global
-stackexchange.com,Technology,Global
-khanacademy.org,Education,Global
-huffpost.com,News,North America
-guardian.ng,News,Africa
-dhl.com,Logistics,Global
-bmw.com,Automobile,Europe
-ferrari.com,Automobile,Europe
-uber.com,Travel,North America
-expedia.com,Travel,North America
-ikea.com,E-commerce,Europe
-samsung.com,Technology,Asia
-xiaomi.com,Technology,Asia
-bloomberg.com,News,North America
-wired.com,Technology,North America
-techcrunch.com,News,North America
-shopify.com,E-commerce,North America
-ebay.com,E-commerce,North America
-itv.com,Entertainment,Europe
-cnbc.com,News,North America
-bbc.co.uk,News,Europe
-disney.com,Entertainment,North America
-fifa.com,Sports,Global
-adidas.com,E-commerce,Europe
-goal.com,Sports,Global
-forbes.com,News,North America
-thehindu.com,News,Asia
-indiatimes.com,News,Asia
-nhk.or.jp,News,Asia
-standardmedia.co.ke,News,Africa
-nation.africa,News,Africa
-ethiopianairlines.com,Travel,Africa
-stanford.edu,Education,North America
-cam.ac.uk,Education,Europe
-ox.ac.uk,Education,Europe
-tata.com,Technology,Asia
-shell.com,Energy,Global
-bp.com,Energy,Global
-maersk.com,Logistics,Global
-pepsico.com,Food,North America
-nestle.com,Food,Europe
-un.org,Government,Global
-nfl.com,Sports,North America
-uefa.com,Sports,Europe
-moh.gov.sg,Government,Asia
-gov.cn,Government,Asia
-who.int,Health,Global
-unicef.org,Non-profit,Global
-redcross.org,Non-profit,Global
-amnesty.org,Non-profit,Global
-paypal.com,Finance,Global
-mastercard.com,Finance,Global
-visa.com,Finance,Global
-alibaba.com,E-commerce,Asia
-jd.com,E-commerce,Asia
+www.aiims.edu
+www.myopenmath.com
+www.ntpc.co.in
+www.iitd.ac.in
+www.iisc.ac.in
+www.rbi.org.in
+www.iocl.com
+www.telegraphindia.com
+www.nationalgrid.com
+www.dmrc.co.in
+www.hindustanpetroleum.com
+facebook.com
+yahoo.com
+reddit.com
+okezone.com
+blogspot.com
+office.com
+alipay.com
+instagram.com
+google.com.hk
+microsoft.com
+google.co.in
+linkedin.com
+adobe.com
+dropbox.com
+mail.ru
+google.com.br
+whatsapp.com
+medium.com
+cnn.com
+google.co.jp
+spotify.com
+google.cn
+google.de
+google.ru
+google.es
+google.fr
+indiatimes.com
+youm7.com
+google.it
+cnblogs.com
+google.com.tw
+udemy.com
+google.com.mx
+canva.com
+google.com.tr
+google.com.sg
+google.co.uk
+pixabay.com
+sindonews.com
+abs-cbn.com
+speedtest.net
+google.com.eg
+ladbible.com
+google.ca
+google.com.sa
+hdfcbank.com
+investing.com
+redd.it
+taboola.com
+albawabhnews.com
+google.com.ar
+ilovepdf.com
+google.co.th
+chouftv.ma
+skype.com
+google.co.id
+thesaurus.com
+ndtv.com
+messenger.com
+suara.com
+weather.com
+blogger.com
+googlevideo.com
+kumparan.com
+ikea.com
+google.pl
+asos.com
+zoom.us
+google.co.kr
+ensonhaber.com
+dostor.org
+cnnindonesia.com
+kinopoisk.ru
+google.com.au
+google.gr
+investopedia.com
+google.com.vn
+google.com.ua
+newstrend.news
+moneycontrol.com
+genius.com
+justdial.com
+codepen.io
+zerodha.com
+prothomalo.com
+theepochtimes.com
+alodokter.com
+gstatic.com
+sportbible.com
+elpais.com
+otvfoco.com.br
+sourceforge.net
+google.co.ve
+namu.wiki
+eksisozluk.com
+infobae.com
+mileroticos.com
+google.com.pk
+inquirer.net
+fast.com
+aksam.com.tr
+tahiamasr.com
+dcard.tw
+cnnic.cn
+europa.eu
+google.com.co
+sozcu.com.tr
+google.dz
+alnaharegypt.com
+yandex.com.tr
+mawdoo3.com
+google.co.za
+merriam-webster.com
+seznam.cz
+plurk.com
+google.cl
+mit.edu
+google.ro
+ouo.io
+padlet.com
