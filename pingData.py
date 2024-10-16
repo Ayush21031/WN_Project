@@ -72,6 +72,7 @@ class PingData:
 			for d in data:
 				try:
 					f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]}, {d[5]}, {d[6]} \n")
+					# f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]} \n")
 				except Exception as e:
 					print(d)
 
@@ -139,8 +140,8 @@ class PingData:
 			complete_data.append(str(ipv6_ping_stats))
 			complete_data.append(geolocation_ipv6)
 			statsForAllSites.append(complete_data)
-			print(f"IPv4: {data[0]}: {ipv4_ping_stats} {geolocation_ipv4}")
-			print(f"IPv6: {data[1]}: {ipv6_ping_stats} {geolocation_ipv6}")
+			print(f"IPv4: {data[0]}: {ipv4_ping_stats}")
+			print(f"IPv6: {data[1]}: {ipv6_ping_stats}")
 		self.saveData(statsForAllSites)
 
 
