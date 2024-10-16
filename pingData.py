@@ -12,26 +12,46 @@ class PingData:
 		self.timeout = 2
 		self.GEOLOCATION_API_URL = "http://ip-api.com/json/"
 
-	def getIP(self, websiteAddr):
+	def getIPv4_IPv6(self, websiteAddr):
 		'''
 		Extracts the IP address of the website using the ping command
 		'''
 		try:
-			ping = subprocess.run(["ping", "-c", "1", websiteAddr], stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=self.timeout)
-			out = ping.stdout.decode('utf-8')
-			# out, error = ping.communicate()
-			# now format the output to get the IP address, min RTT, max RTT, avg RTT
-			# out = out.decode('utf-8')
+			nslookup_ipv4 = subprocess.run(["nslookup", "-type=A", websiteAddr], stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=self.timeout)
+			nslookup_ipv6 = subprocess.run(["nslookup", "-type=AAAA", websiteAddr], stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=self.timeout)
+			out_ipv4 = nslookup_ipv4.stdout.decode('utf-8')
+			out_ipv6 = nslookup_ipv6.stdout.decode('utf-8')
 			# Extract the IP address from the output
-			ipAddr = re.findall(r'[0-9]+(?:\.[0-9]+){3}', out)
-			print(f"IP address of {websiteAddr} is {ipAddr[0]}")
-			minRTT = re.findall(r'round-trip min/avg/max/stddev = ([0-9.]+)+/([0-9.]+)+/([0-9.]+)+/([0-9.]+|nan) ms', out)
+			ipAddr_ipv4 = re.findall(r'Address: ([0-9]+(?:\.[0-9]+){3})', out_ipv4)
+			ipAddr_ipv6 = re.findall(r"AAAA address\s+([0-9a-fA-F:]+)", out_ipv6)
+			# check if the IP address is found
+			if len(ipAddr_ipv4) == 0 or len(ipAddr_ipv6) == 0:
+				return []
+			print("nslookup done")
+			return [ipAddr_ipv4[0], ipAddr_ipv6[0]]
 		except Exception as e:
 			print(f"Error: {e}")
 			return []
-		
+
+	def getPingStats(self, ip_addr, flag):
+		'''
+		Extracts the IP address of the website using the ping command
+		'''
+		try:
+			if not flag:
+				ping = subprocess.run(["ping", "-c", "5", ip_addr], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+				out = ping.stdout.decode('utf-8')
+				minRTT = re.findall(r'round-trip min/avg/max/stddev = ([0-9.]+)+/([0-9.]+)+/([0-9.]+)+/([0-9.]+|nan) ms', out)
+			else:
+				ping = subprocess.run(["ping6", "-c", "5", ip_addr], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+				out = ping.stdout.decode('utf-8')
+				minRTT = re.findall(r'round-trip min/avg/max/std-dev = ([0-9.]+)+/([0-9.]+)+/([0-9.]+)+/([0-9.]+|nan) ms', out)
+		except Exception as e:
+			print(f"Error: {e}")
+			return []
+		if minRTT == []:
+			return []
 		result = [i for i in minRTT[0][:-1]]
-		result.append(ipAddr[0])
 		return result
 
 	def getWebsiteNames(self):
@@ -48,10 +68,10 @@ class PingData:
 		'''
 		Saves the data to a file
 		'''
-		with open('pingData.txt', 'w') as f:
+		with open('pingData2.txt', 'w') as f:
 			for d in data:
 				try:
-					f.write(f"{d[3]},{d[0]},{d[1]},{d[2]},{d[4]}\n")
+					f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]}, {d[5]}, {d[6]} \n")
 				except Exception as e:
 					print(d)
 
@@ -86,7 +106,7 @@ class PingData:
 		statsForAllSites = []
 		websiteAddrs = self.getWebsiteNames()
 		for websiteAddr in websiteAddrs:
-			data = self.getIP(websiteAddr)
+			data = self.getPingStats(websiteAddr)
 			if len(data) == 0:
 				continue
 			geolocation = self.getGeolocation(data[3])
@@ -94,6 +114,39 @@ class PingData:
 			statsForAllSites.append(data)
 		self.saveData(statsForAllSites)
 	
+	def mainTest(self):
+		statsForAllSites = []
+		websiteAddrs = self.getWebsiteNames()
+		for websiteAddr in websiteAddrs:
+			print("getting data for ", websiteAddr)
+			data = self.getIPv4_IPv6(websiteAddr)
+			if len(data) !=2:
+				print("data not found")
+				continue
+			ipv4_ping_stats = self.getPingStats(data[0], False)
+			ipv6_ping_stats = self.getPingStats(data[1], True)
+			if len(ipv4_ping_stats) == 0 or len(ipv6_ping_stats) == 0:
+				print("ping stats not found")
+				continue
+			geolocation_ipv4 = self.getGeolocation(data[0])
+			geolocation_ipv6 = self.getGeolocation(data[1])
+			complete_data = []
+			complete_data.append(websiteAddr)
+			complete_data.append(data[0])
+			complete_data.append(str(ipv4_ping_stats))
+			complete_data.append(geolocation_ipv4)
+			complete_data.append(data[1])
+			complete_data.append(str(ipv6_ping_stats))
+			complete_data.append(geolocation_ipv6)
+			statsForAllSites.append(complete_data)
+			print(f"IPv4: {data[0]}: {ipv4_ping_stats} {geolocation_ipv4}")
+			print(f"IPv6: {data[1]}: {ipv6_ping_stats} {geolocation_ipv6}")
+		self.saveData(statsForAllSites)
+
+
+
+	
 if __name__ == '__main__':
 	pingData = PingData()
-	pingData.main()
+	# pingData.main()
+	pingData.mainTest()
