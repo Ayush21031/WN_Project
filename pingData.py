@@ -102,23 +102,11 @@ class PingData:
 		except Exception as e:
 			print(f"Error fetching geolocation for {ip_address}: {e}")
 			return {}
-
-	def main(self):
-		statsForAllSites = []
-		websiteAddrs = self.getWebsiteNames()
-		for websiteAddr in websiteAddrs:
-			data = self.getPingStats(websiteAddr)
-			if len(data) == 0:
-				continue
-			geolocation = self.getGeolocation(data[3])
-			data.append(geolocation)
-			statsForAllSites.append(data)
-		self.saveData(statsForAllSites)
 	
 	def mainTest(self):
 		statsForAllSites = []
 		websiteAddrs = self.getWebsiteNames()
-		for websiteAddr in websiteAddrs:
+		for websiteAddr in websiteAddrs[:100]:
 			print("getting data for ", websiteAddr)
 			data = self.getIPv4_IPv6(websiteAddr)
 			if len(data) !=2:
@@ -140,8 +128,8 @@ class PingData:
 			complete_data.append(str(ipv6_ping_stats))
 			complete_data.append(geolocation_ipv6)
 			statsForAllSites.append(complete_data)
-			print(f"IPv4: {data[0]}: {ipv4_ping_stats}")
-			print(f"IPv6: {data[1]}: {ipv6_ping_stats}")
+			print(f"IPv4: {data[0]}: {ipv4_ping_stats} geolocation: {geolocation_ipv4}")
+			print(f"IPv6: {data[1]}: {ipv6_ping_stats} geolocation: {geolocation_ipv6}")
 		self.saveData(statsForAllSites)
 
 
@@ -149,5 +137,4 @@ class PingData:
 	
 if __name__ == '__main__':
 	pingData = PingData()
-	# pingData.main()
 	pingData.mainTest()
