@@ -9,7 +9,7 @@ class PingData:
 	'''
 	def __init__(self):
 		self.WEBSITE_SOURCE_FILE = "website.csv"
-		self.timeout = 2
+		self.timeout = 5
 		self.GEOLOCATION_API_URL = "http://ip-api.com/json/"
 
 	def getIPv4_IPv6(self, websiteAddr):
@@ -81,7 +81,7 @@ class PingData:
 		Fetches geolocation data for the given IP address using ip-api.com.
 		'''
 		try:
-			response = requests.get(self.GEOLOCATION_API_URL + ip_address, timeout=5)
+			response = requests.get(self.GEOLOCATION_API_URL + ip_address + "?fields=country,status", timeout=5)
 			data = response.json()
 			if data['status'] == 'success':
 				return data.get('country', '')
