@@ -118,12 +118,14 @@ class PingData:
 		self.saveData(statsForAllSites)
 	
 	def mainTest(self):
+		f = open("ipdata.txt","a")
 		statsForAllSites = []
 		websiteAddrs = self.getWebsiteNames()
 		for websiteAddr in websiteAddrs:
 			print("getting data for ", websiteAddr)
 			data = self.getIPv4_IPv6(websiteAddr)
 			print(data)
+			f.write(f"{websiteAddr},{data[0]},{data[1]}\n")
 			if len(data) !=2:
 				print("data not found")
 				continue
@@ -148,6 +150,7 @@ class PingData:
 			print(f"IPv4: {data[0]}: {ipv4_ping_stats}")
 			print(f"IPv6: {data[1]}: {ipv6_ping_stats}")
 		self.saveData(statsForAllSites)
+		f.close()
 
 
 

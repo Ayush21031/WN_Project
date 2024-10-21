@@ -41,37 +41,73 @@ def count_hops_windows(output):
             hop_count += 1
     return hop_count
 
+def read_ping_data(file_path):
+    """
+    Reads the pingData3.txt file and extracts the domain, IPv4, and IPv6 addresses.
+    """
+    data = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            parts = line.strip().split(',')
+            domain = parts[0].strip()
+            ipv4_address = parts[1].strip()
+            ipv6_address = parts[5].strip()
+            data.append((domain, ipv4_address, ipv6_address))
+    return data
+
+def write_hops_data(file_path, hops_data):
+    """
+    Writes the hops data (domain, IPv4 hops, IPv6 hops) to a file.
+    """
+    with open(file_path, 'w') as file:
+        for domain, hops_ipv4, hops_ipv6 in hops_data:
+            file.write(f"{domain}, IPv4 hops: {hops_ipv4}, IPv6 hops: {hops_ipv6}\n")
+
 def main():
-    # Fixed IPv4 and IPv6 addresses
-    ipv4_address = "8.8.8.8"  # Google Public DNS IPv4
-    ipv6_address = "2001:4860:4860::8888"  # Google Public DNS IPv6
+    # File paths
+    ping_data_file = 'pingData3.txt'
+    output_hops_file = 'hopsData.txt'
+
+    # Read data from pingData3.txt
+    ping_data = read_ping_data(ping_data_file)
 
     os_type = platform.system()
 
-    if os_type == "Windows":
-        # Windows uses 'tracert'
-        traceroute_cmd_ipv4 = ["tracert", "-4", ipv4_address]
-        traceroute_cmd_ipv6 = ["tracert", "-6", ipv6_address]
-    else:
-        # Unix-like systems use 'traceroute'
-        traceroute_cmd_ipv4 = ["traceroute", "-4", ipv4_address]
-        traceroute_cmd_ipv6 = ["traceroute", "-6", ipv6_address]
+    hops_data = []
 
-    print(f"Running traceroute for IPv4 to {ipv4_address}...")
-    output_ipv4 = run_traceroute(traceroute_cmd_ipv4)
-    if os_type == "Windows":
-        hops_ipv4 = count_hops_windows(output_ipv4)
-    else:
-        hops_ipv4 = count_hops_unix(output_ipv4)
-    print(f"IPv4: Number of hops = {hops_ipv4}")
+    for domain, ipv4_address, ipv6_address in ping_data:
+        # Run traceroute for IPv4
+        print(f"Running traceroute for IPv4 to {ipv4_address} ({domain})...")
+        if os_type == "Windows":
+            traceroute_cmd_ipv4 = ["tracert", "-4", ipv4_address]
+        else:
+            traceroute_cmd_ipv4 = ["traceroute", "-4", ipv4_address]
+        
+        output_ipv4 = run_traceroute(traceroute_cmd_ipv4)
+        if os_type == "Windows":
+            hops_ipv4 = count_hops_windows(output_ipv4)
+        else:
+            hops_ipv4 = count_hops_unix(output_ipv4)
 
-    print(f"\nRunning traceroute for IPv6 to {ipv6_address}...")
-    output_ipv6 = run_traceroute(traceroute_cmd_ipv6)
-    if os_type == "Windows":
-        hops_ipv6 = count_hops_windows(output_ipv6)
-    else:
-        hops_ipv6 = count_hops_unix(output_ipv6)
-    print(f"IPv6: Number of hops = {hops_ipv6}")
+        # Run traceroute for IPv6
+        print(f"Running traceroute for IPv6 to {ipv6_address} ({domain})...")
+        if os_type == "Windows":
+            traceroute_cmd_ipv6 = ["tracert", "-6", ipv6_address]
+        else:
+            traceroute_cmd_ipv6 = ["traceroute", "-6", ipv6_address]
+
+        output_ipv6 = run_traceroute(traceroute_cmd_ipv6)
+        if os_type == "Windows":
+            hops_ipv6 = count_hops_windows(output_ipv6)
+        else:
+            hops_ipv6 = count_hops_unix(output_ipv6)
+
+        # Append the hops data for this domain
+        hops_data.append((domain, hops_ipv4, hops_ipv6))
+
+    # Write the results to hopsData.txt
+    write_hops_data(output_hops_file, hops_data)
+    print(f"Traceroute hops data saved to {output_hops_file}")
 
 if __name__ == "__main__":
     main()

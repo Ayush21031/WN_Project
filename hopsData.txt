@@ -1,0 +1,2 @@
+google.com, IPv4 hops: 10, IPv6 hops: 12
+facebook.com, IPv4 hops: 30, IPv6 hops: 30
