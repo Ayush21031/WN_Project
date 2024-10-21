@@ -9,7 +9,7 @@ class PingData:
 	'''
 	def __init__(self):
 		self.WEBSITE_SOURCE_FILE = "website.csv"
-		self.timeout = 2
+		self.timeout = 5
 		self.GEOLOCATION_API_URL = "http://ip-api.com/json/"
 
 	def getIPv4_IPv6(self, websiteAddr):
@@ -68,7 +68,7 @@ class PingData:
 		'''
 		Saves the data to a file
 		'''
-		with open('pingData2.txt', 'w') as f:
+		with open('pingData3.txt', 'w') as f:
 			for d in data:
 				try:
 					f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]}, {d[5]}, {d[6]} \n")
@@ -81,7 +81,7 @@ class PingData:
 		Fetches geolocation data for the given IP address using ip-api.com.
 		'''
 		try:
-			response = requests.get(self.GEOLOCATION_API_URL + ip_address, timeout=5)
+			response = requests.get(self.GEOLOCATION_API_URL + ip_address + "?fields=country,status", timeout=5)
 			data = response.json()
 			if data['status'] == 'success':
 				return data.get('country', '')
@@ -111,12 +111,21 @@ class PingData:
 			data = self.getIPv4_IPv6(websiteAddr)
 			if len(data) !=2:
 				print("data not found")
-				continue
+				print("Trying again!!")
+				data = self.getIPv4_IPv6(websiteAddr)
+				if len(data)!=2:
+					print("data not found again")
+					continue
 			ipv4_ping_stats = self.getPingStats(data[0], False)
 			ipv6_ping_stats = self.getPingStats(data[1], True)
 			if len(ipv4_ping_stats) == 0 or len(ipv6_ping_stats) == 0:
 				print("ping stats not found")
-				continue
+				print("Trying again!!")
+				ipv4_ping_stats = self.getPingStats(data[0], False)
+				ipv6_ping_stats = self.getPingStats(data[1], True)
+				if len(ipv4_ping_stats) == 0 or len(ipv6_ping_stats) == 0:
+					print("ping stats not found again")
+					continue
 			geolocation_ipv4 = self.getGeolocation(data[0])
 			geolocation_ipv6 = self.getGeolocation(data[1])
 			complete_data = []
