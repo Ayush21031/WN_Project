@@ -8,7 +8,7 @@ class PingData:
 	Class to extract the IP address and RTT of the websites
 	'''
 	def __init__(self):
-		self.WEBSITE_SOURCE_FILE = "website.csv"
+		self.WEBSITE_SOURCE_FILE = "websites/website.csv"
 		self.timeout = 5
 		self.GEOLOCATION_API_URL = "http://ip-api.com/json/"
 
@@ -68,7 +68,7 @@ class PingData:
 		'''
 		Saves the data to a file
 		'''
-		with open('pingData3.txt', 'w') as f:
+		with open('pingDataAirtel.txt', 'w') as f:
 			for d in data:
 				try:
 					f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]}, {d[5]}, {d[6]} \n")
