@@ -2,14 +2,18 @@ import os
 import re
 import subprocess
 import requests
+import datetime
+import threading
+import json
 
 class PingData:
 	'''
 	Class to extract the IP address and RTT of the websites
 	'''
-	def __init__(self):
+	def __init__(self, isp):
 		self.WEBSITE_SOURCE_FILE = "websites/website.csv"
 		self.timeout = 5
+		self.isp = isp
 		self.GEOLOCATION_API_URL = "http://ip-api.com/json/"
 
 	def getIPv4_IPv6(self, websiteAddr):
@@ -51,8 +55,8 @@ class PingData:
 			return []
 		if minRTT == []:
 			return []
-		result = [i for i in minRTT[0][:-1]]
-		return result
+		result = [float(i) for i in minRTT[0][:-1]]
+		return [sum(result)/3]
 
 	def getWebsiteNames(self):
 		'''
@@ -64,17 +68,33 @@ class PingData:
 				websites.append(line.strip())
 		return websites
 	
-	def saveData(self, data):
+	def saveData(self, data, iterationNumber):
 		'''
 		Saves the data to a file
 		'''
-		with open('pingDataAirtel.txt', 'w') as f:
-			for d in data:
-				try:
-					f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]}, {d[5]}, {d[6]} \n")
-					# f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]} \n")
-				except Exception as e:
-					print(d)
+		currDateTime = datetime.datetime.now().strftime("%Y-%m-%d|%H")
+		dataJson = {}
+		for d in data:
+			dataJson[d[0]] = {
+				'ipv4': {
+					'ip': d[1],
+					'ping': d[2],
+					'geolocation': d[3]
+				},
+				'ipv6': {
+					'ip': d[4],
+					'ping': d[5],
+					'geolocation': d[6]
+				},
+				'wget': d[7]
+			}
+		with open(f'results/{currDateTime}|{self.isp}.txt|{iterationNumber}', 'a') as f:
+			# for d in data:
+			try:
+				json.dump(dataJson, f, indent=4)
+				# f.write(f"{d[0]}, {d[1]}, {d[2]}, {d[3]}, {d[4]}, {d[5]}, {d[6]}, {d[7]} \n")
+			except Exception as e:
+				print(d)
 
 	def getGeolocation(self,ip_address):
 		'''
@@ -102,11 +122,33 @@ class PingData:
 		except Exception as e:
 			print(f"Error fetching geolocation for {ip_address}: {e}")
 			return {}
+
+	def get_wget_stats(self, website_url):
+		"""
+		Extracts the download time from the wget command output.
+		Returns the download time in seconds as a float.
+		"""
+		try:
+			# Run the wget command
+			wget = subprocess.run(["wget", "-O", "/dev/null", website_url], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=self.timeout)
+			output = wget.stderr  # The relevant timing data is in stdout
+			
+			# Look for the download time in the format `352K=0.06s`
+			match = re.search(r'=\s*([\d.]+)s', output)
+			if match:
+				download_time = float(match.group(1))
+				return download_time
+			else:
+				print("Download time not found in wget output.")
+				return None
+		except Exception as e:
+			print(f"timed out while fetching wget data for {website_url}")
+			return None
 	
-	def mainTest(self):
+	def run(self, rangeLower, rangeUpper, iterationNumber):
 		statsForAllSites = []
 		websiteAddrs = self.getWebsiteNames()
-		for websiteAddr in websiteAddrs[:100]:
+		for websiteAddr in websiteAddrs[rangeLower:rangeUpper]:
 			print("getting data for ", websiteAddr)
 			data = self.getIPv4_IPv6(websiteAddr)
 			if len(data) !=2:
@@ -128,6 +170,9 @@ class PingData:
 					continue
 			geolocation_ipv4 = self.getGeolocation(data[0])
 			geolocation_ipv6 = self.getGeolocation(data[1])
+			wget_stats = self.get_wget_stats(websiteAddr)
+			if wget_stats is None:
+				continue
 			complete_data = []
 			complete_data.append(websiteAddr)
 			complete_data.append(data[0])
@@ -136,14 +181,23 @@ class PingData:
 			complete_data.append(data[1])
 			complete_data.append(str(ipv6_ping_stats))
 			complete_data.append(geolocation_ipv6)
+			complete_data.append(wget_stats)
 			statsForAllSites.append(complete_data)
-			print(f"IPv4: {data[0]}: {ipv4_ping_stats} geolocation: {geolocation_ipv4}")
-			print(f"IPv6: {data[1]}: {ipv6_ping_stats} geolocation: {geolocation_ipv6}")
-		self.saveData(statsForAllSites)
+			print(f"IPv4: {data[0]}: {ipv4_ping_stats} geolocation: {geolocation_ipv4} wget: {wget_stats}")
+			print(f"IPv6: {data[1]}: {ipv6_ping_stats} geolocation: {geolocation_ipv6} wget: {wget_stats}")
+		self.saveData(statsForAllSites, iterationNumber)
 
-
-
+def main():
+	isp = input("Enter the ISP name: ")
+	pingData = PingData(isp)
+	for iterationNumber in range(1, 3):
+		threads = []
+		for i in range(0, 159, 10):
+			t = threading.Thread(target=pingData.run, args=(i, i+10, iterationNumber))
+			threads.append(t)
+			t.start()
+		for t in threads:
+			t.join()
 	
 if __name__ == '__main__':
-	pingData = PingData()
-	pingData.mainTest()
+	main()
