@@ -12,7 +12,7 @@ class PingData:
 	'''
 	def __init__(self, isp):
 		self.WEBSITE_SOURCE_FILE = "websites/website.csv"
-		self.timeout = 5
+		self.timeout = 10
 		self.isp = isp
 		self.GEOLOCATION_API_URL = "http://ip-api.com/json/"
 
@@ -56,7 +56,7 @@ class PingData:
 		if minRTT == []:
 			return []
 		result = [float(i) for i in minRTT[0][:-1]]
-		return [sum(result)/3]
+		return result
 
 	def getWebsiteNames(self):
 		'''
@@ -72,7 +72,7 @@ class PingData:
 		'''
 		Saves the data to a file
 		'''
-		currDateTime = datetime.datetime.now().strftime("%Y-%m-%d|%H")
+		currDateTime = datetime.datetime.now().strftime("%Y-%m-%d_%H")
 		dataJson = {}
 		for d in data:
 			dataJson[d[0]] = {
@@ -88,7 +88,7 @@ class PingData:
 				},
 				'wget': d[7]
 			}
-		with open(f'results/{currDateTime}|{self.isp}.txt|{iterationNumber}', 'a') as f:
+		with open(f'results/{currDateTime}_{self.isp}_{iterationNumber}.json', 'a') as f:
 			# for d in data:
 			try:
 				json.dump(dataJson, f, indent=4)
@@ -142,7 +142,7 @@ class PingData:
 				print("Download time not found in wget output.")
 				return None
 		except Exception as e:
-			print(f"timed out while fetching wget data for {website_url}")
+			print(f"timed out while fetching wget data for {website_url} {e}")
 			return None
 	
 	def run(self, rangeLower, rangeUpper, iterationNumber):

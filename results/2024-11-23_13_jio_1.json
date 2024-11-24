@@ -63,8 +63,7 @@
             "geolocation": "France"
         },
         "wget": 0.1
-    }
-}{
+    },
     "pandora.com": {
         "ipv4": {
             "ip": "199.116.164.229",
@@ -155,8 +154,7 @@
             "geolocation": "United States"
         },
         "wget": 0.3
-    }
-}{
+    },
     "infobae.com": {
         "ipv4": {
             "ip": "104.116.243.162",
@@ -195,8 +193,7 @@
             "geolocation": "France"
         },
         "wget": 0.1
-    }
-}{
+    },
     "sexlog.com": {
         "ipv4": {
             "ip": "104.16.69.8",
@@ -274,8 +271,7 @@
             "geolocation": "United Kingdom"
         },
         "wget": 0.2
-    }
-}{
+    },
     "hubspot.com": {
         "ipv4": {
             "ip": "104.16.117.116",
@@ -340,8 +336,7 @@
             "geolocation": "Singapore"
         },
         "wget": 0.3
-    }
-}{
+    },
     "apple.com": {
         "ipv4": {
             "ip": "17.253.144.10",
@@ -393,8 +388,7 @@
             "geolocation": "Australia"
         },
         "wget": 0.08
-    }
-}{
+    },
     "taboola.com": {
         "ipv4": {
             "ip": "151.101.2.132",
@@ -459,8 +453,7 @@
             "geolocation": "Australia"
         },
         "wget": 0.2
-    }
-}{
+    },
     "s2d6.com": {
         "ipv4": {
             "ip": "172.67.147.75",
@@ -538,8 +531,7 @@
             "geolocation": "Czechia"
         },
         "wget": 0.5
-    }
-}{
+    },
     "fbcdn.net": {
         "ipv4": {
             "ip": "163.70.145.35",
@@ -630,8 +622,7 @@
             "geolocation": "United States"
         },
         "wget": 0.1
-    }
-}{
+    },
     "youtube.com": {
         "ipv4": {
             "ip": "142.250.194.78",
@@ -709,8 +700,7 @@
             "geolocation": "Canada"
         },
         "wget": 0.08
-    }
-}{
+    },
     "leo.org": {
         "ipv4": {
             "ip": "104.22.76.215",
@@ -775,8 +765,7 @@
             "geolocation": "Canada"
         },
         "wget": 0.3
-    }
-}{
+    },
     "indiatimes.com": {
         "ipv4": {
             "ip": "104.108.242.252",
@@ -893,8 +882,7 @@
             "geolocation": "The Netherlands"
         },
         "wget": 0.2
-    }
-}{
+    },
     "intoday.in": {
         "ipv4": {
             "ip": "49.44.95.143",
@@ -985,8 +973,7 @@
             "geolocation": "France"
         },
         "wget": 0.0
-    }
-}{
+    },
     "avast.com": {
         "ipv4": {
             "ip": "23.33.245.141",
@@ -1064,8 +1051,7 @@
             "geolocation": "India"
         },
         "wget": 0.2
-    }
-}{
+    },
     "gutefrage.net": {
         "ipv4": {
             "ip": "54.230.112.113",
@@ -1156,8 +1142,7 @@
             "geolocation": "France"
         },
         "wget": 0.007
-    }
-}{
+    },
     "kayak.com": {
         "ipv4": {
             "ip": "151.101.193.29",

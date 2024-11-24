@@ -76,8 +76,7 @@
             "geolocation": "United Kingdom"
         },
         "wget": 0.4
-    }
-}{
+    },
     "myfitnesspal.com": {
         "ipv4": {
             "ip": "104.18.34.245",
@@ -129,8 +128,7 @@
             "geolocation": "France"
         },
         "wget": 0.1
-    }
-}{
+    },
     "thehindu.com": {
         "ipv4": {
             "ip": "104.18.8.4",
@@ -208,8 +206,7 @@
             "geolocation": "France"
         },
         "wget": 0.1
-    }
-}{
+    },
     "avast.com": {
         "ipv4": {
             "ip": "23.33.245.141",
@@ -300,8 +297,7 @@
             "geolocation": "India"
         },
         "wget": 0.2
-    }
-}{
+    },
     "rediff.com": {
         "ipv4": {
             "ip": "2.16.1.170",
@@ -418,8 +414,7 @@
             "geolocation": "United States"
         },
         "wget": 0.2
-    }
-}{
+    },
     "intoday.in": {
         "ipv4": {
             "ip": "49.44.95.143",
@@ -523,8 +518,7 @@
             "geolocation": "The Netherlands"
         },
         "wget": 0.005
-    }
-}{
+    },
     "jquery.com": {
         "ipv4": {
             "ip": "104.18.155.119",
@@ -589,8 +583,7 @@
             "geolocation": "Canada"
         },
         "wget": 0.3
-    }
-}{
+    },
     "kayak.com": {
         "ipv4": {
             "ip": "151.101.193.29",
@@ -655,8 +648,7 @@
             "geolocation": "Russia"
         },
         "wget": 0.1
-    }
-}{
+    },
     "dropbox.com": {
         "ipv4": {
             "ip": "162.125.248.18",
@@ -760,8 +752,7 @@
             "geolocation": "The Netherlands"
         },
         "wget": 0.04
-    }
-}{
+    },
     "java.com": {
         "ipv4": {
             "ip": "23.200.216.40",
@@ -865,8 +856,7 @@
             "geolocation": "United States"
         },
         "wget": 0.2
-    }
-}{
+    },
     "chip.de": {
         "ipv4": {
             "ip": "49.44.117.179",
@@ -970,8 +960,7 @@
             "geolocation": "France"
         },
         "wget": 0.02
-    }
-}{
+    },
     "biblegateway.com": {
         "ipv4": {
             "ip": "18.164.202.25",
@@ -1075,8 +1064,7 @@
             "geolocation": "France"
         },
         "wget": 0.7
-    }
-}{
+    },
     "taboola.com": {
         "ipv4": {
             "ip": "151.101.130.132",
@@ -1141,8 +1129,7 @@
             "geolocation": "Australia"
         },
         "wget": 0.2
-    }
-}{
+    },
     "apple.com": {
         "ipv4": {
             "ip": "17.253.144.10",
@@ -1194,8 +1181,7 @@
             "geolocation": "Australia"
         },
         "wget": 0.08
-    }
-}{
+    },
     "google.com": {
         "ipv4": {
             "ip": "142.251.42.110",
@@ -1286,8 +1272,7 @@
             "geolocation": "Canada"
         },
         "wget": 0.09
-    }
-}{
+    },
     "examiner.com": {
         "ipv4": {
             "ip": "172.67.137.61",
