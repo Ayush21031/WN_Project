@@ -1,0 +1,1601 @@
+{
+    "rediff.com": {
+        "ipv4": {
+            "ip": "23.209.46.152",
+            "ping": "[98.56, 107.691, 119.873]",
+            "geolocation": "Singapore"
+        },
+        "ipv6": {
+            "ip": "2600:1413:5000:1c::1737:2caf",
+            "ping": "[103.937, 105.397, 107.198]",
+            "geolocation": "Singapore"
+        },
+        "wget": 0.2
+    },
+    "fbcdn.net": {
+        "ipv4": {
+            "ip": "157.240.198.35",
+            "ping": "[29.437, 32.261, 34.73]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2a03:2880:f144:82:face:b00c:0:25de",
+            "ping": "[29.413, 32.096, 35.005]",
+            "geolocation": "India"
+        },
+        "wget": 0.1
+    },
+    "moz.com": {
+        "ipv4": {
+            "ip": "104.16.127.24",
+            "ping": "[27.773, 35.824, 45.401]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8393:72b5:8439:5eb:6810:4019",
+            "ping": "[26.406, 28.851, 32.517]",
+            "geolocation": "France"
+        },
+        "wget": 0.05
+    },
+    "free.fr": {
+        "ipv4": {
+            "ip": "212.27.48.10",
+            "ping": "[171.426, 198.059, 258.065]",
+            "geolocation": "France"
+        },
+        "ipv6": {
+            "ip": "2a01:e0c:1::1",
+            "ping": "[166.284, 177.191, 184.069]",
+            "geolocation": "The Netherlands"
+        },
+        "wget": 0.4
+    },
+    "4dsply.com": {
+        "ipv4": {
+            "ip": "104.16.203.119",
+            "ping": "[27.842, 34.573, 39.24]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:8392:a658:5739:5ea:6810:ca77",
+            "ping": "[23.674, 38.459, 67.703]",
+            "geolocation": "France"
+        },
+        "wget": 0.003
+    },
+    "ehow.com": {
+        "ipv4": {
+            "ip": "104.18.37.116",
+            "ping": "[24.31, 33.201, 52.591]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:8392:e631:6939:5ea:ad7b:8765",
+            "ping": "[22.834, 50.335, 82.004]",
+            "geolocation": {}
+        },
+        "wget": 0.2
+    },
+    "speedtest.net": {
+        "ipv4": {
+            "ip": "151.101.66.219",
+            "ping": "[28.853, 34.874, 44.563]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2a04:4e42::731",
+            "ping": "[21.579, 34.119, 39.943]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 0.04
+    },
+    "bitauto.com": {
+        "ipv4": {
+            "ip": "18.164.188.110",
+            "ping": "[29.655, 36.112, 41.52]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:9000:256b:9200:a:4ec4:5e40:93a1",
+            "ping": "[23.166, 42.54, 81.534]",
+            "geolocation": "United States"
+        },
+        "wget": 0.2
+    },
+    "myfitnesspal.com": {
+        "ipv4": {
+            "ip": "172.64.153.11",
+            "ping": "[36.513, 42.985, 55.817]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:d46c:e439:5ea:8b4e:bef5",
+            "ping": "[21.493, 28.457, 40.285]",
+            "geolocation": "France"
+        },
+        "wget": 1.0
+    },
+    "infobae.com": {
+        "ipv4": {
+            "ip": "23.48.245.178",
+            "ping": "[24.755, 40.679, 87.024]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:4::1736:50a2",
+            "ping": "[44.501, 60.847, 85.696]",
+            "geolocation": {}
+        },
+        "wget": 0.3
+    },
+    "android.com": {
+        "ipv4": {
+            "ip": "172.217.166.4",
+            "ping": "[28.52, 38.976, 57.304]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:80c::2004",
+            "ping": "[30.747, 36.657, 44.29]",
+            "geolocation": {}
+        },
+        "wget": 0.4
+    },
+    "pingdom.com": {
+        "ipv4": {
+            "ip": "104.20.139.47",
+            "ping": "[25.63, 33.303, 42.114]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8396:b422:9d39:5ea:6814:8a2f",
+            "ping": "[27.693, 49.531, 82.632]",
+            "geolocation": "France"
+        },
+        "wget": 0.1
+    },
+    "avast.com": {
+        "ipv4": {
+            "ip": "23.35.241.101",
+            "ping": "[30.348, 35.08, 45.348]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:a800:18b::21c7",
+            "ping": "[26.143, 30.02, 34.457]",
+            "geolocation": "India"
+        },
+        "wget": 0.1
+    },
+    "clarin.com": {
+        "ipv4": {
+            "ip": "104.18.6.141",
+            "ping": "[30.851, 32.729, 38.048]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8393:28e1:b539:5eb:7029:4861",
+            "ping": "[23.701, 31.579, 36.598]",
+            "geolocation": "France"
+        },
+        "wget": 1.0
+    },
+    "blogspot.com": {
+        "ipv4": {
+            "ip": "142.250.194.105",
+            "ping": "[25.935, 35.622, 44.149]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:821::2009",
+            "ping": "[31.777, 45.24, 71.784]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.2
+    },
+    "hidemyass.com": {
+        "ipv4": {
+            "ip": "23.10.233.183",
+            "ping": "[31.909, 50.251, 76.213]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:a800:1a7::337a",
+            "ping": "[21.269, 30.647, 38.835]",
+            "geolocation": "India"
+        },
+        "wget": 0.3
+    },
+    "ehowenespanol.com": {
+        "ipv4": {
+            "ip": "104.18.43.209",
+            "ping": "[26.392, 40.536, 62.715]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:af8:f939:5eb:fa35:787c",
+            "ping": "[21.972, 38.584, 44.614]",
+            "geolocation": {}
+        },
+        "wget": 0.08
+    },
+    "diply.com": {
+        "ipv4": {
+            "ip": "104.26.2.12",
+            "ping": "[24.357, 34.15, 39.072]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:839b:e224:db39:5eb:39dc:191a",
+            "ping": "[49.965, 61.073, 70.337]",
+            "geolocation": "France"
+        },
+        "wget": 0.2
+    },
+    "wunderground.com": {
+        "ipv4": {
+            "ip": "23.57.251.125",
+            "ping": "[26.693, 33.628, 43.934]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:9c00:181::2e03",
+            "ping": "[22.943, 30.784, 39.135]",
+            "geolocation": "India"
+        },
+        "wget": 0.1
+    },
+    "indiatimes.com": {
+        "ipv4": {
+            "ip": "23.57.247.82",
+            "ping": "[23.09, 28.756, 33.133]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:9c00:1af::3621",
+            "ping": "[25.844, 28.488, 30.252]",
+            "geolocation": "India"
+        },
+        "wget": 0.3
+    },
+    "dropbox.com": {
+        "ipv4": {
+            "ip": "162.125.248.18",
+            "ping": "[96.39, 105.535, 123.531]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2620:100:6040:18::a27d:f812",
+            "ping": "[158.729, 170.396, 184.977]",
+            "geolocation": "United States"
+        },
+        "wget": 0.8
+    },
+    "weather.com": {
+        "ipv4": {
+            "ip": "23.57.251.125",
+            "ping": "[26.801, 35.921, 45.9]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:1417:56:288::2e03",
+            "ping": "[19.561, 32.475, 54.645]",
+            "geolocation": "India"
+        },
+        "wget": 0.5
+    },
+    "wikia.com": {
+        "ipv4": {
+            "ip": "151.101.0.194",
+            "ping": "[32.751, 40.34, 55.041]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a04:4e42:200::194",
+            "ping": "[25.212, 34.818, 53.413]",
+            "geolocation": "United States"
+        },
+        "wget": 0.8
+    },
+    "wikimedia.org": {
+        "ipv4": {
+            "ip": "103.102.166.224",
+            "ping": "[100.478, 114.417, 134.081]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2001:df2:e500:ed1a::1",
+            "ping": "[98.873, 116.486, 129.951]",
+            "geolocation": {}
+        },
+        "wget": 0.07
+    },
+    "blogfa.com": {
+        "ipv4": {
+            "ip": "172.67.160.233",
+            "ping": "[151.982, 168.975, 204.861]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:3030::ac43:a0e9",
+            "ping": "[158.353, 172.976, 188.553]",
+            "geolocation": "Canada"
+        },
+        "wget": 0.01
+    },
+    "bbc.com": {
+        "ipv4": {
+            "ip": "151.101.0.81",
+            "ping": "[24.858, 32.74, 44.439]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2a04:4e42::81",
+            "ping": "[24.367, 30.607, 39.809]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 0.2
+    },
+    "theguardian.com": {
+        "ipv4": {
+            "ip": "151.101.1.111",
+            "ping": "[29.486, 33.764, 38.258]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2a04:4e42::367",
+            "ping": "[25.805, 38.261, 55.06]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 0.3
+    },
+    "sourceforge.net": {
+        "ipv4": {
+            "ip": "104.18.13.149",
+            "ping": "[32.419, 44.397, 56.081]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:498:f98:0:8280:21e3",
+            "ping": "[20.431, 78.092, 272.608]",
+            "geolocation": {}
+        },
+        "wget": 0.3
+    },
+    "pastebin.com": {
+        "ipv4": {
+            "ip": "104.20.3.235",
+            "ping": "[31.26, 37.82, 43.138]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8396:eec7:5439:5ea:6814:3eb",
+            "ping": "[26.188, 34.677, 46.593]",
+            "geolocation": "France"
+        },
+        "wget": 0.02
+    },
+    "thehindu.com": {
+        "ipv4": {
+            "ip": "104.18.8.4",
+            "ping": "[22.174, 39.66, 64.428]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:2e14:a339:5eb:4de5:5eef",
+            "ping": "[24.964, 31.029, 39.686]",
+            "geolocation": "France"
+        },
+        "wget": 0.1
+    },
+    "seekingalpha.com": {
+        "ipv4": {
+            "ip": "151.101.65.91",
+            "ping": "[31.504, 41.369, 58.232]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2a04:4e42:400::347",
+            "ping": "[25.995, 31.237, 45.156]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 0.3
+    },
+    "india.com": {
+        "ipv4": {
+            "ip": "96.17.168.34",
+            "ping": "[27.696, 32.087, 38.244]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2600:140f:a800::6011:a822",
+            "ping": "[19.894, 31.852, 39.255]",
+            "geolocation": {}
+        },
+        "wget": 0.2
+    },
+    "nbcsports.com": {
+        "ipv4": {
+            "ip": "23.76.156.19",
+            "ping": "[22.74, 34.746, 46.585]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:e00::1730:f529",
+            "ping": "[33.773, 40.525, 53.145]",
+            "geolocation": "India"
+        },
+        "wget": 0.5
+    },
+    "orf.at": {
+        "ipv4": {
+            "ip": "194.232.104.3",
+            "ping": "[174.314, 182.402, 190.237]",
+            "geolocation": "Austria"
+        },
+        "ipv6": {
+            "ip": "2a01:468:1000:9::150",
+            "ping": "[171.085, 185.587, 212.283]",
+            "geolocation": "Austria"
+        },
+        "wget": 0.6
+    },
+    "elegantthemes.com": {
+        "ipv4": {
+            "ip": "104.16.91.42",
+            "ping": "[20.972, 35.319, 52.423]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:74db:1b39:5ea:6810:5b2a",
+            "ping": "[27.754, 32.623, 38.002]",
+            "geolocation": "France"
+        },
+        "wget": 0.09
+    },
+    "searchengines.ru": {
+        "ipv4": {
+            "ip": "94.130.2.55",
+            "ping": "[191.622, 205.133, 218.461]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a01:4f8:11f:2500::b0",
+            "ping": "[182.128, 186.242, 195.509]",
+            "geolocation": "Germany"
+        },
+        "wget": 0.4
+    },
+    "spotify.com": {
+        "ipv4": {
+            "ip": "35.186.224.24",
+            "ping": "[21.787, 37.187, 47.092]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2600:1901:1:7c5::",
+            "ping": "[22.492, 34.007, 47.234]",
+            "geolocation": "United States"
+        },
+        "wget": 0.1
+    },
+    "sexlog.com": {
+        "ipv4": {
+            "ip": "104.16.69.8",
+            "ping": "[22.24, 31.277, 40.108]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8393:60d1:6d39:5eb:6810:4408",
+            "ping": "[28.956, 31.384, 35.992]",
+            "geolocation": "France"
+        },
+        "wget": 0.004
+    },
+    "idealo.de": {
+        "ipv4": {
+            "ip": "3.67.5.93",
+            "ping": "[174.29, 182.549, 204.986]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a05:d014:8d8:5000:6d06:b6a5:61f9:6990",
+            "ping": "[203.62, 206.74, 208.874]",
+            "geolocation": {}
+        },
+        "wget": 0.3
+    },
+    "weheartit.com": {
+        "ipv4": {
+            "ip": "172.67.157.158",
+            "ping": "[147.983, 156.852, 170.259]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:3036::6815:225b",
+            "ping": "[169.959, 182.141, 204.499]",
+            "geolocation": {}
+        },
+        "wget": 0.0
+    },
+    "kohls.com": {
+        "ipv4": {
+            "ip": "96.17.168.26",
+            "ping": "[24.432, 32.412, 36.696]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:1417:56::174c:9d1a",
+            "ping": "[28.261, 33.582, 43.942]",
+            "geolocation": "India"
+        },
+        "wget": 0.3
+    },
+    "forgeofempires.com": {
+        "ipv4": {
+            "ip": "212.48.98.83",
+            "ping": "[170.833, 177.839, 184.179]",
+            "geolocation": "Germany"
+        },
+        "ipv6": {
+            "ip": "2a00:1f78:fffd::d430:6253",
+            "ping": "[164.239, 172.489, 178.491]",
+            "geolocation": "Germany"
+        },
+        "wget": 0.0
+    },
+    "ew.com": {
+        "ipv4": {
+            "ip": "151.101.2.137",
+            "ping": "[27.96, 33.362, 39.011]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a04:4e42::649",
+            "ping": "[29.2, 37.137, 43.865]",
+            "geolocation": {}
+        },
+        "wget": 0.1
+    },
+    "goo.gl": {
+        "ipv4": {
+            "ip": "142.250.206.142",
+            "ping": "[28.589, 32.079, 37.886]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:81c::200e",
+            "ping": "[28.895, 31.421, 34.263]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.6
+    },
+    "intoday.in": {
+        "ipv4": {
+            "ip": "23.48.245.171",
+            "ping": "[26.058, 38.611, 61.6]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:a00::17df:f308",
+            "ping": "[25.205, 28.304, 31.964]",
+            "geolocation": "India"
+        },
+        "wget": 0.02
+    },
+    "wideinfo.org": {
+        "ipv4": {
+            "ip": "172.66.40.254",
+            "ping": "[33.736, 63.436, 171.215]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:3108::ac42:2b02",
+            "ping": "[26.398, 30.647, 35.456]",
+            "geolocation": "Canada"
+        },
+        "wget": 0.2
+    },
+    "elpais.com": {
+        "ipv4": {
+            "ip": "23.48.245.187",
+            "ping": "[23.205, 44.903, 77.547]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:a00::17df:f333",
+            "ping": "[23.988, 30.392, 40.895]",
+            "geolocation": "India"
+        },
+        "wget": 0.1
+    },
+    "blogspot.mx": {
+        "ipv4": {
+            "ip": "142.250.193.201",
+            "ping": "[27.997, 38.515, 54.732]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:825::2009",
+            "ping": "[28.791, 36.9, 43.342]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.05
+    },
+    "gizmodo.com": {
+        "ipv4": {
+            "ip": "104.26.2.63",
+            "ping": "[32.593, 42.058, 61.646]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8399:58b1:5ba5:5eb:7ea:3db7",
+            "ping": "[53.125, 59.822, 71.446]",
+            "geolocation": "France"
+        },
+        "wget": 0.6
+    },
+    "lifehacker.com": {
+        "ipv4": {
+            "ip": "172.64.153.110",
+            "ping": "[27.339, 31.079, 35.677]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:90b7:9439:5ea:2257:75c9",
+            "ping": "[22.503, 30.997, 41.099]",
+            "geolocation": "France"
+        },
+        "wget": 0.1
+    },
+    "seznam.cz": {
+        "ipv4": {
+            "ip": "77.75.79.222",
+            "ping": "[178.744, 186.439, 206.08]",
+            "geolocation": "Czechia"
+        },
+        "ipv6": {
+            "ip": "2a02:598:2::1222",
+            "ping": "[186.005, 192.445, 201.167]",
+            "geolocation": {}
+        },
+        "wget": 0.7
+    },
+    "tinyurl.com": {
+        "ipv4": {
+            "ip": "104.18.111.161",
+            "ping": "[29.16, 42.034, 81.52]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8392:f8b2:cd39:5ea:6811:70e9",
+            "ping": "[30.3, 36.49, 41.844]",
+            "geolocation": {}
+        },
+        "wget": 0.01
+    },
+    "examiner.com": {
+        "ipv4": {
+            "ip": "104.21.86.218",
+            "ping": "[184.718, 199.252, 215.839]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:3031::6815:56da",
+            "ping": "[165.066, 193.854, 239.104]",
+            "geolocation": "Canada"
+        },
+        "wget": 0.2
+    },
+    "iplt20.com": {
+        "ipv4": {
+            "ip": "111.119.15.1",
+            "ping": "[52.807, 55.237, 58.133]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2402:6800:763:a000::8",
+            "ping": "[62.343, 65.72, 69.818]",
+            "geolocation": "India"
+        },
+        "wget": 0.09
+    },
+    "hubspot.com": {
+        "ipv4": {
+            "ip": "104.16.117.116",
+            "ping": "[21.649, 43.951, 65.4]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8392:e6aa:b639:5ea:6810:7574",
+            "ping": "[20.281, 38.338, 73.562]",
+            "geolocation": "France"
+        },
+        "wget": 0.1
+    },
+    "blogspot.jp": {
+        "ipv4": {
+            "ip": "142.250.194.233",
+            "ping": "[25.208, 32.733, 38.624]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:825::2009",
+            "ping": "[21.496, 47.864, 76.695]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.04
+    },
+    "nhl.com": {
+        "ipv4": {
+            "ip": "104.18.17.236",
+            "ping": "[31.71, 36.861, 45.481]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8392:a25b:7739:5eb:5c01:c082",
+            "ping": "[30.883, 45.583, 85.468]",
+            "geolocation": "France"
+        },
+        "wget": 0.1
+    },
+    "blogspot.ru": {
+        "ipv4": {
+            "ip": "142.250.194.201",
+            "ping": "[29.259, 66.822, 112.907]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:824::2009",
+            "ping": "[23.263, 31.994, 44.666]",
+            "geolocation": {}
+        },
+        "wget": 0.04
+    },
+    "youth.cn": {
+        "ipv4": {
+            "ip": "163.171.206.21",
+            "ping": "[66.201, 76.421, 84.905]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2a01:53c0:ffeb::3",
+            "ping": "[57.5, 62.801, 66.865]",
+            "geolocation": {}
+        },
+        "wget": 0.5
+    },
+    "biblegateway.com": {
+        "ipv4": {
+            "ip": "18.164.202.10",
+            "ping": "[33.535, 40.914, 51.414]",
+            "geolocation": "Japan"
+        },
+        "ipv6": {
+            "ip": "2600:9000:256c:4c00:1f:9383:73c0:93a1",
+            "ping": "[27.032, 37.006, 49.69]",
+            "geolocation": "United States"
+        },
+        "wget": 0.09
+    },
+    "s2d6.com": {
+        "ipv4": {
+            "ip": "172.67.147.75",
+            "ping": "[187.401, 223.064, 263.432]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:3035::6815:3762",
+            "ping": "[166.928, 178.529, 189.606]",
+            "geolocation": "Canada"
+        },
+        "wget": 0.4
+    },
+    "getbootstrap.com": {
+        "ipv4": {
+            "ip": "172.67.30.148",
+            "ping": "[26.596, 42.58, 83.015]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8395:d655:8839:5eb:db0b:ebb",
+            "ping": "[21.894, 31.947, 43.444]",
+            "geolocation": {}
+        },
+        "wget": 0.02
+    },
+    "bestblackhatforum.com": {
+        "ipv4": {
+            "ip": "172.66.0.158",
+            "ping": "[27.842, 39.997, 65.236]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2a06:98c1:58::66",
+            "ping": "[31.654, 34.441, 39.093]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 0.05
+    },
+    "ibm.com": {
+        "ipv4": {
+            "ip": "23.58.45.8",
+            "ping": "[62.115, 76.485, 93.914]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:1413:5000:a89::3831",
+            "ping": "[106.833, 109.512, 114.27]",
+            "geolocation": "Singapore"
+        },
+        "wget": 0.1
+    },
+    "nikkei.com": {
+        "ipv4": {
+            "ip": "35.71.146.174",
+            "ping": "[24.801, 32.403, 45.004]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2600:9000:a615:e7f2:2ea1:cf50:5844:399f",
+            "ping": "[36.155, 40.679, 46.037]",
+            "geolocation": "United States"
+        },
+        "wget": 0.2
+    },
+    "novinky.cz": {
+        "ipv4": {
+            "ip": "77.75.76.151",
+            "ping": "[179.037, 197.546, 240.535]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a02:598:a::78:151",
+            "ping": "[179.833, 183.797, 188.774]",
+            "geolocation": "Czechia"
+        },
+        "wget": 0.4
+    },
+    "searchengineland.com": {
+        "ipv4": {
+            "ip": "104.26.8.67",
+            "ping": "[24.119, 43.656, 105.776]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:83b8:be64:f539:5ea:9ff9:ca0f",
+            "ping": "[71.215, 76.686, 83.707]",
+            "geolocation": {}
+        },
+        "wget": 0.2
+    },
+    "instagram.com": {
+        "ipv4": {
+            "ip": "157.240.239.174",
+            "ping": "[30.37, 37.573, 45.064]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2a03:2880:f244:e0:face:b00c:0:4420",
+            "ping": "[30.017, 34.384, 42.304]",
+            "geolocation": "India"
+        },
+        "wget": 0.1
+    },
+    "mail.ru": {
+        "ipv4": {
+            "ip": "94.100.180.200",
+            "ping": "[247.033, 251.926, 257.847]",
+            "geolocation": "Russia"
+        },
+        "ipv6": {
+            "ip": "2a00:1148:1000:101:5:4:0:200",
+            "ping": "[283.938, 289.235, 298.015]",
+            "geolocation": "Russia"
+        },
+        "wget": 1.5
+    },
+    "apple.com": {
+        "ipv4": {
+            "ip": "17.253.144.10",
+            "ping": "[47.945, 56.901, 63.123]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2620:149:af0::10",
+            "ping": "[58.871, 65.392, 71.211]",
+            "geolocation": "United States"
+        },
+        "wget": 0.3
+    },
+    "reddit.com": {
+        "ipv4": {
+            "ip": "151.101.129.140",
+            "ping": "[29.694, 38.98, 56.958]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a04:4e42:200::396",
+            "ping": "[28.428, 37.398, 58.593]",
+            "geolocation": {}
+        },
+        "wget": 1.0
+    },
+    "cnn.com": {
+        "ipv4": {
+            "ip": "151.101.3.5",
+            "ping": "[37.24, 45.197, 59.391]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a04:4e42:200::773",
+            "ping": "[28.298, 31.738, 35.649]",
+            "geolocation": {}
+        },
+        "wget": 1.2
+    },
+    "blogger.com": {
+        "ipv4": {
+            "ip": "142.250.194.201",
+            "ping": "[29.011, 36.786, 44.851]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:824::2009",
+            "ping": "[30.569, 37.147, 41.781]",
+            "geolocation": {}
+        },
+        "wget": 0.2
+    },
+    "about.com": {
+        "ipv4": {
+            "ip": "151.101.2.137",
+            "ping": "[27.365, 32.768, 37.364]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a04:4e42::649",
+            "ping": "[25.206, 30.735, 35.32]",
+            "geolocation": {}
+        },
+        "wget": 0.09
+    },
+    "blogspot.in": {
+        "ipv4": {
+            "ip": "142.250.193.73",
+            "ping": "[27.791, 35.94, 43.667]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:81b::2009",
+            "ping": "[28.702, 36.623, 46.829]",
+            "geolocation": {}
+        },
+        "wget": 0.05
+    },
+    "java.com": {
+        "ipv4": {
+            "ip": "23.200.239.226",
+            "ping": "[26.881, 32.685, 42.918]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:1417:56::174c:9d09",
+            "ping": "[26.166, 33.819, 42.1]",
+            "geolocation": "India"
+        },
+        "wget": 0.0
+    },
+    "pandora.com": {
+        "ipv4": {
+            "ip": "199.116.164.229",
+            "ping": "[245.039, 276.245, 322.057]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2620:106:e001:f00d::e7",
+            "ping": "[277.604, 293.523, 338.72]",
+            "geolocation": "United States"
+        },
+        "wget": 0.001
+    },
+    "mashable.com": {
+        "ipv4": {
+            "ip": "172.64.145.239",
+            "ping": "[30.109, 94.689, 286.368]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8390:28c9:f739:5ea:509:fd10",
+            "ping": "[28.789, 37.958, 65.63]",
+            "geolocation": "France"
+        },
+        "wget": 0.08
+    },
+    "photobucket.com": {
+        "ipv4": {
+            "ip": "18.66.102.100",
+            "ping": "[169.571, 176.025, 191.548]",
+            "geolocation": "Germany"
+        },
+        "ipv6": {
+            "ip": "2600:9000:223c:4a00:c:873e:f1c0:93a1",
+            "ping": "[180.454, 204.818, 258.445]",
+            "geolocation": {}
+        },
+        "wget": 0.001
+    },
+    "taringa.net": {
+        "ipv4": {
+            "ip": "18.164.217.29",
+            "ping": "[34.506, 43.412, 61.003]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2600:9000:256d:7200:4:942:c0c0:93a1",
+            "ping": "[31.614, 43.646, 54.769]",
+            "geolocation": "United States"
+        },
+        "wget": 0.0
+    },
+    "ikea.com": {
+        "ipv4": {
+            "ip": "23.214.144.98",
+            "ping": "[190.459, 192.955, 198.4]",
+            "geolocation": "United Kingdom"
+        },
+        "ipv6": {
+            "ip": "2a02:26f0:5d00:1093::2eb6",
+            "ping": "[173.04, 186.295, 203.554]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 0.2
+    },
+    "ndtv.com": {
+        "ipv4": {
+            "ip": "23.58.1.33",
+            "ping": "[25.913, 57.274, 163.565]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:9c00:19b::24e8",
+            "ping": "[25.833, 33.713, 44.368]",
+            "geolocation": "India"
+        },
+        "wget": 0.6
+    },
+    "snapdeal.com": {
+        "ipv4": {
+            "ip": "99.86.114.8",
+            "ping": "[173.718, 182.024, 190.177]",
+            "geolocation": "United Kingdom"
+        },
+        "ipv6": {
+            "ip": "2600:9000:213a:2a00:18:8de9:2dc0:93a1",
+            "ping": "[27.728, 34.929, 42.14]",
+            "geolocation": {}
+        },
+        "wget": 0.2
+    },
+    "people.com": {
+        "ipv4": {
+            "ip": "151.101.2.137",
+            "ping": "[30.03, 31.24, 33.913]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2a04:4e42::649",
+            "ping": "[23.349, 28.758, 36.278]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 0.3
+    },
+    "leo.org": {
+        "ipv4": {
+            "ip": "104.22.77.215",
+            "ping": "[26.62, 60.993, 158.695]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8397:163f:4839:5eb:1a97:c2d",
+            "ping": "[25.488, 31.808, 39.446]",
+            "geolocation": "France"
+        },
+        "wget": 0.02
+    },
+    "jquery.com": {
+        "ipv4": {
+            "ip": "104.18.156.119",
+            "ping": "[29.92, 35.314, 44.251]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8390:d0a4:7739:5eb:6812:9b77",
+            "ping": "[25.869, 36.654, 46.021]",
+            "geolocation": "France"
+        },
+        "wget": 0.002
+    },
+    "sears.com": {
+        "ipv4": {
+            "ip": "104.18.35.92",
+            "ping": "[32.788, 89.285, 241.281]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:8392:8084:96a5:5eb:7d19:8b74",
+            "ping": "[26.146, 32.059, 38.758]",
+            "geolocation": "France"
+        },
+        "wget": 0.05
+    },
+    "prestashop.com": {
+        "ipv4": {
+            "ip": "104.16.210.130",
+            "ping": "[25.585, 38.392, 63.518]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:1ac3:1039:5ea:6810:d282",
+            "ping": "[28.263, 39.123, 47.175]",
+            "geolocation": {}
+        },
+        "wget": 0.1
+    },
+    "amung.us": {
+        "ipv4": {
+            "ip": "172.67.8.141",
+            "ping": "[30.041, 34.379, 45.813]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8396:50d6:a539:5ea:753b:adbc",
+            "ping": "[21.232, 36.929, 46.298]",
+            "geolocation": "France"
+        },
+        "wget": 0.009
+    },
+    "heise.de": {
+        "ipv4": {
+            "ip": "193.99.144.80",
+            "ping": "[215.281, 239.365, 283.533]",
+            "geolocation": "Germany"
+        },
+        "ipv6": {
+            "ip": "2a02:2e0:3fe:1001:302::",
+            "ping": "[172.366, 178.57, 186.701]",
+            "geolocation": "Germany"
+        },
+        "wget": 1.4
+    },
+    "traidnt.net": {
+        "ipv4": {
+            "ip": "104.21.9.81",
+            "ping": "[155.302, 160.714, 164.811]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:3033::6815:951",
+            "ping": "[158.666, 170.614, 191.331]",
+            "geolocation": {}
+        },
+        "wget": 0.4
+    },
+    "chip.de": {
+        "ipv4": {
+            "ip": "96.17.168.75",
+            "ping": "[40.172, 51.486, 76.406]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:1417:56::174c:9d09",
+            "ping": "[35.411, 68.257, 86.304]",
+            "geolocation": "India"
+        },
+        "wget": 0.3
+    },
+    "gutefrage.net": {
+        "ipv4": {
+            "ip": "13.32.99.43",
+            "ping": "[167.854, 175.066, 181.266]",
+            "geolocation": "Germany"
+        },
+        "ipv6": {
+            "ip": "2600:9000:2251:fa00:3:67e0:9600:93a1",
+            "ping": "[185.611, 196.793, 202.516]",
+            "geolocation": "United States"
+        },
+        "wget": 0.7
+    },
+    "leadpages.net": {
+        "ipv4": {
+            "ip": "216.239.36.21",
+            "ping": "[26.449, 48.201, 97.298]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2001:4860:4802:38::15",
+            "ping": "[29.08, 39.093, 52.113]",
+            "geolocation": "United States"
+        },
+        "wget": 0.4
+    },
+    "youm7.com": {
+        "ipv4": {
+            "ip": "104.18.12.212",
+            "ping": "[27.707, 39.735, 48.631]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8392:9e4b:9b39:5eb:62a1:f42b",
+            "ping": "[20.057, 31.037, 40.009]",
+            "geolocation": "France"
+        },
+        "wget": 0.5
+    },
+    "2345.com": {
+        "ipv4": {
+            "ip": "139.196.82.176",
+            "ping": "[304.723, 344.359, 362.523]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "240e:e9:5005:301:1000:1:1:ba",
+            "ping": "[286.503, 293.652, 300.589]",
+            "geolocation": {}
+        },
+        "wget": 0.7
+    },
+    "urbandictionary.com": {
+        "ipv4": {
+            "ip": "34.160.205.245",
+            "ping": "[31.11, 37.324, 45.31]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2600:1901:0:efcd::",
+            "ping": "[27.93, 40.116, 50.483]",
+            "geolocation": "United States"
+        },
+        "wget": 0.1
+    },
+    "exoclick.com": {
+        "ipv4": {
+            "ip": "87.98.253.29",
+            "ping": "[174.058, 179.714, 184.849]",
+            "geolocation": "Belgium"
+        },
+        "ipv6": {
+            "ip": "2001:41d0:203:879f::29",
+            "ping": "[174.146, 184.422, 196.023]",
+            "geolocation": "France"
+        },
+        "wget": 0.2
+    },
+    "kinopoisk.ru": {
+        "ipv4": {
+            "ip": "213.180.199.9",
+            "ping": "[233.316, 237.462, 243.578]",
+            "geolocation": "Russia"
+        },
+        "ipv6": {
+            "ip": "2a02:6b8::473",
+            "ping": "[219.52, 226.805, 233.708]",
+            "geolocation": "Russia"
+        },
+        "wget": 0.0
+    },
+    "informer.com": {
+        "ipv4": {
+            "ip": "104.22.17.194",
+            "ping": "[32.303, 36.058, 39.019]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:8397:fe14:b339:5ea:3b4a:23b2",
+            "ping": "[26.866, 29.077, 32.279]",
+            "geolocation": "France"
+        },
+        "wget": 0.02
+    },
+    "opensiteexplorer.org": {
+        "ipv4": {
+            "ip": "104.21.24.2",
+            "ping": "[160.272, 165.713, 170.298]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2606:4700:3035::6815:1802",
+            "ping": "[149.708, 174.954, 185.768]",
+            "geolocation": "Canada"
+        },
+        "wget": 0.02
+    },
+    "kayak.com": {
+        "ipv4": {
+            "ip": "151.101.1.29",
+            "ping": "[33.637, 46.159, 62.673]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2a04:4e42::285",
+            "ping": "[26.505, 32.83, 44.966]",
+            "geolocation": "United Kingdom"
+        },
+        "wget": 1.0
+    },
+    "as.com": {
+        "ipv4": {
+            "ip": "23.48.245.176",
+            "ping": "[31.752, 36.168, 39.405]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:a00::17df:f332",
+            "ping": "[24.405, 28.512, 35.705]",
+            "geolocation": "India"
+        },
+        "wget": 0.2
+    },
+    "58.com": {
+        "ipv4": {
+            "ip": "42.187.161.231",
+            "ping": "[282.018, 309.958, 381.041]",
+            "geolocation": "China"
+        },
+        "ipv6": {
+            "ip": "2402:4e00:1208:2100:0:9d0b:4476:cb8a",
+            "ping": "[186.9, 197.159, 220.357]",
+            "geolocation": {}
+        },
+        "wget": 0.1
+    },
+    "yandex.com": {
+        "ipv4": {
+            "ip": "77.88.44.55",
+            "ping": "[217.269, 225.532, 236.663]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2a02:6b8:a::a",
+            "ping": "[231.876, 237.744, 242.709]",
+            "geolocation": "Russia"
+        },
+        "wget": 0.9
+    },
+    "focus.de": {
+        "ipv4": {
+            "ip": "23.200.239.217",
+            "ping": "[28.323, 37.965, 64.652]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:1417:56::174c:9d09",
+            "ping": "[25.865, 29.969, 33.863]",
+            "geolocation": "India"
+        },
+        "wget": 0.3
+    },
+    "webs.com": {
+        "ipv4": {
+            "ip": "172.67.164.208",
+            "ping": "[154.763, 164.285, 171.755]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:3037::6815:aed",
+            "ping": "[149.633, 180.721, 217.906]",
+            "geolocation": {}
+        },
+        "wget": 0.4
+    },
+    "ya.ru": {
+        "ipv4": {
+            "ip": "5.255.255.242",
+            "ping": "[222.404, 239.876, 262.465]",
+            "geolocation": "Russia"
+        },
+        "ipv6": {
+            "ip": "2a02:6b8::2:242",
+            "ping": "[226.042, 239.929, 269.832]",
+            "geolocation": "Russia"
+        },
+        "wget": 0.0
+    },
+    "babytree.com": {
+        "ipv4": {
+            "ip": "60.205.255.187",
+            "ping": "[371.577, 391.192, 403.964]",
+            "geolocation": "China"
+        },
+        "ipv6": {
+            "ip": "2408:4000:300::117",
+            "ping": "[196.79, 202.309, 210.133]",
+            "geolocation": "China"
+        },
+        "wget": 0.3
+    },
+    "taboola.com": {
+        "ipv4": {
+            "ip": "151.101.130.132",
+            "ping": "[28.81, 35.447, 46.7]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2a04:4e42:200::644",
+            "ping": "[26.82, 32.991, 46.588]",
+            "geolocation": "United States"
+        },
+        "wget": 0.07
+    },
+    "w3.org": {
+        "ipv4": {
+            "ip": "104.18.22.19",
+            "ping": "[23.455, 50.179, 131.713]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2606:4700:8391:741c:8739:5eb:19e3:8f51",
+            "ping": "[20.739, 46.673, 116.728]",
+            "geolocation": "France"
+        },
+        "wget": 0.01
+    },
+    "lefigaro.fr": {
+        "ipv4": {
+            "ip": "96.17.168.25",
+            "ping": "[26.957, 31.897, 34.66]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2600:140f:a800::6011:a829",
+            "ping": "[25.516, 47.29, 116.925]",
+            "geolocation": "India"
+        },
+        "wget": 0.4
+    },
+    "blogspot.de": {
+        "ipv4": {
+            "ip": "142.250.193.201",
+            "ping": "[23.208, 34.017, 40.579]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:81c::2009",
+            "ping": "[27.009, 31.478, 39.012]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.03
+    },
+    "doubleclick.com": {
+        "ipv4": {
+            "ip": "172.217.166.14",
+            "ping": "[31.683, 35.354, 38.634]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:81a::200e",
+            "ping": "[25.026, 30.562, 44.19]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.2
+    },
+    "google.com": {
+        "ipv4": {
+            "ip": "216.58.200.174",
+            "ping": "[29.893, 34.489, 37.026]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:811::200e",
+            "ping": "[30.159, 34.746, 44.814]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.04
+    },
+    "facebook.com": {
+        "ipv4": {
+            "ip": "157.240.239.35",
+            "ping": "[34.92, 47.318, 60.793]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2a03:2880:f144:82:face:b00c:0:25de",
+            "ping": "[27.079, 30.47, 33.918]",
+            "geolocation": "India"
+        },
+        "wget": 0.09
+    },
+    "youtube.com": {
+        "ipv4": {
+            "ip": "142.250.207.206",
+            "ping": "[23.227, 58.089, 130.102]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:81c::200e",
+            "ping": "[30.776, 50.322, 66.099]",
+            "geolocation": "Australia"
+        },
+        "wget": 0.3
+    },
+    "yahoo.com": {
+        "ipv4": {
+            "ip": "74.6.143.26",
+            "ping": "[256.508, 273.709, 314.079]",
+            "geolocation": "United States"
+        },
+        "ipv6": {
+            "ip": "2001:4998:124:1507::f001",
+            "ping": "[274.63, 286.764, 303.484]",
+            "geolocation": "United States"
+        },
+        "wget": 1.2
+    },
+    "wikipedia.org": {
+        "ipv4": {
+            "ip": "103.102.166.224",
+            "ping": "[103.189, 115.659, 134.826]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2001:df2:e500:ed1a::1",
+            "ping": "[102.922, 111.575, 123.167]",
+            "geolocation": "United States"
+        },
+        "wget": 0.2
+    },
+    "linkedin.com": {
+        "ipv4": {
+            "ip": "13.107.42.14",
+            "ping": "[25.332, 31.677, 38.171]",
+            "geolocation": "Canada"
+        },
+        "ipv6": {
+            "ip": "2620:1ec:21::14",
+            "ping": "[26.351, 37.684, 52.482]",
+            "geolocation": "United States"
+        },
+        "wget": 0.4
+    },
+    "blogspot.com": {
+        "ipv4": {
+            "ip": "142.250.194.105",
+            "ping": "[23.847, 32.554, 37.059]",
+            "geolocation": "India"
+        },
+        "ipv6": {
+            "ip": "2404:6800:4002:821::2009",
+            "ping": "[30.13, 35.019, 41.183]",
+            "geolocation": {}
+        },
+        "wget": 0.2
+    },
+    "yandex.ru": {
+        "ipv4": {
+            "ip": "5.255.255.77",
+            "ping": "[225.482, 231.293, 238.046]",
+            "geolocation": "Russia"
+        },
+        "ipv6": {
+            "ip": "2a02:6b8:a::a",
+            "ping": "[217.311, 255.139, 296.409]",
+            "geolocation": "Russia"
+        },
+        "wget": 0.0
+    },
+    "bing.com": {
+        "ipv4": {
+            "ip": "13.107.21.200",
+            "ping": "[32.237, 51.855, 78.907]",
+            "geolocation": {}
+        },
+        "ipv6": {
+            "ip": "2620:1ec:c11::200",
+            "ping": "[22.996, 51.146, 64.706]",
+            "geolocation": {}
+        },
+        "wget": 0.2
+    }
+}
